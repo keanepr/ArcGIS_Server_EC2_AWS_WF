@@ -1,0 +1,5 @@
+%%capture
+%conda install -c conda-forge graphviz
+
+import graphviz
+burnt_areas.draw_graph()
